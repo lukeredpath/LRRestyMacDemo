@@ -13,14 +13,11 @@
 		A306168E13A0F5B200A77EEF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A306168C13A0F5B200A77EEF /* Credits.rtf */; };
 		A306169113A0F5B200A77EEF /* LRRestyMacDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A306169013A0F5B200A77EEF /* LRRestyMacDemoAppDelegate.m */; };
 		A306169413A0F5B200A77EEF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A306169213A0F5B200A77EEF /* MainMenu.xib */; };
-		A3F45A9313A12F8F00242E72 /* LRResty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F45A9213A12F8F00242E72 /* LRResty.framework */; };
+		A37917F113A143470025AF1C /* LRResty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37917F013A143470025AF1C /* LRResty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A306167D13A0F5B200A77EEF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A306168013A0F5B200A77EEF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		A306168113A0F5B200A77EEF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A306168213A0F5B200A77EEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A306168513A0F5B200A77EEF /* LRRestyMacDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LRRestyMacDemo-Info.plist"; sourceTree = "<group>"; };
 		A306168713A0F5B200A77EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A306168913A0F5B200A77EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,8 +26,8 @@
 		A306168F13A0F5B200A77EEF /* LRRestyMacDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRRestyMacDemoAppDelegate.h; sourceTree = "<group>"; };
 		A306169013A0F5B200A77EEF /* LRRestyMacDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRRestyMacDemoAppDelegate.m; sourceTree = "<group>"; };
 		A306169313A0F5B200A77EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A37917F013A143470025AF1C /* LRResty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LRResty.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/LRResty-gfyyqxlgxfurnydldmgopbcmslfj/Build/Products/Debug/LRResty.framework"; sourceTree = "<group>"; };
 		A3F45A7413A12E1200242E72 /* LRRestyMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRRestyMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F45A9213A12F8F00242E72 /* LRResty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LRResty.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F45A9313A12F8F00242E72 /* LRResty.framework in Frameworks */,
+				A37917F113A143470025AF1C /* LRResty.framework in Frameworks */,
 				A306167E13A0F5B200A77EEF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +46,6 @@
 		A306166E13A0F5B200A77EEF = {
 			isa = PBXGroup;
 			children = (
-				A3F45A9213A12F8F00242E72 /* LRResty.framework */,
 				A306168313A0F5B200A77EEF /* LRRestyMacDemo */,
 				A306167C13A0F5B200A77EEF /* Frameworks */,
 				A3F45A7413A12E1200242E72 /* LRRestyMacDemo.app */,
@@ -59,20 +55,10 @@
 		A306167C13A0F5B200A77EEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A37917F013A143470025AF1C /* LRResty.framework */,
 				A306167D13A0F5B200A77EEF /* Cocoa.framework */,
-				A306167F13A0F5B200A77EEF /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A306167F13A0F5B200A77EEF /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A306168013A0F5B200A77EEF /* AppKit.framework */,
-				A306168113A0F5B200A77EEF /* CoreData.framework */,
-				A306168213A0F5B200A77EEF /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		A306168313A0F5B200A77EEF /* LRRestyMacDemo */ = {
@@ -244,15 +230,18 @@
 		A306169813A0F5B200A77EEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/LRResty-gfyyqxlgxfurnydldmgopbcmslfj/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRRestyMacDemo/LRRestyMacDemo-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "LRRestyMacDemo/LRRestyMacDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,15 +249,18 @@
 		A306169913A0F5B200A77EEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/LRResty-gfyyqxlgxfurnydldmgopbcmslfj/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRRestyMacDemo/LRRestyMacDemo-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "LRRestyMacDemo/LRRestyMacDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
