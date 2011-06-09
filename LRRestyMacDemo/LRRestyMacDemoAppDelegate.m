@@ -22,6 +22,8 @@
 
 - (IBAction)doFetch:(id)sender
 {
+  [resultsView setString:@""];
+  
   NSString *URLString = [self.URLField stringValue];
 
   if (URLString == nil) return;
@@ -30,7 +32,11 @@
   
   if (theURL) {
     [[LRResty client] get:URLString withBlock:^(LRRestyResponse *response) {
-      [resultsView setString:[response asString]];
+      if ([response status] == 200) {
+        [resultsView setString:[response asString]];
+      } else {
+        [resultsView setString:[response description]];
+      }
     }];
   }
 }
